@@ -5,19 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './context/auth';
-import axios from 'axios'
+import axios from 'axios';
 
-axios.defaults.baseURL="http://localhost:9000/api/v1/auth"
+axios.defaults.baseURL = "http://localhost:9000/api/v1/auth";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-   <AuthProvider>
+    <AuthProvider>
 
       <App />
-   </AuthProvider>
-   
+    </AuthProvider>
+
   </BrowserRouter>
 );
 

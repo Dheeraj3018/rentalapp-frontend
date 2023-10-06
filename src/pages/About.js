@@ -4,7 +4,7 @@ import Layout from '../components/Layout/Layout';
 const About = () => {
   return (
     <Layout>
-         <div className="row contactus ">
+      <div className="row contactus ">
         <div className="col-md-6 ">
           <img
             src="https://img.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg"

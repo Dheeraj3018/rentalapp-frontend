@@ -23,6 +23,7 @@ const Login = () => {
         password,
       });
       if (res && res.data.success) {
+        console.log('response :::', res.data.user)
         toast.success(res.data && res.data.message);
         setAuth({
           ...auth,
@@ -69,11 +70,11 @@ const Login = () => {
           </div>
           <div className="mb-3">
 
-          <button type="button" className="btn btn-primary" onClick={() => {
-            navigate('/forgotpassword')
-          }}>
-            Forgot Password
-          </button>
+            <button type="button" className="btn btn-primary" onClick={() => {
+              navigate('/forgotpassword')
+            }}>
+              Forgot Password
+            </button>
           </div>
           <button type="submit" className="btn btn-primary">
             LOGIN
