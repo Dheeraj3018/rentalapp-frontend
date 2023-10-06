@@ -20,7 +20,7 @@ const HomePage = () => {
 
       <li>
 
-        <ol><strong>1.The User can rent items from dashboard</strong></ol>
+        <ol><h6>1.The User can rent items from dashboard</h6></ol>
         <ol><strong>2.The price mentioned is for one Day</strong></ol>
         <ol> <strong>3.If you increase the days. The final value will be showed.</strong></ol>
         <ol> <strong>4.The user can buy the required product.</strong></ol>
