@@ -59,7 +59,7 @@ const Product = () => {
 
                     </CardContent>
                     <CardActions>
-                      <Button size="small" onClick={handlePayment(list.price)}>Buy now</Button>
+                      <Button variant='contained' size="small" onClick={handlePayment(list.price)}>Buy now</Button>
                     </CardActions>
                   </Card>
                 </Grid>

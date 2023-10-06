@@ -24,6 +24,7 @@ const HomePage = () => {
         <ol><strong>2.The price mentioned is for one Day</strong></ol>
         <ol> <strong>3.If you increase the days. The final value will be showed.</strong></ol>
         <ol> <strong>4.The user can buy the required product.</strong></ol>
+        <ol> <strong>5.To Change the password ,enter the favourite sport ,password will be changed</strong></ol>
       </li>
 
     </Layout>
