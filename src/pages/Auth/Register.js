@@ -86,8 +86,10 @@ const Register = () => {
             <input
               type="text"
               value={phone}
+              maxlength="10"
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter Your Phone"
+
               required
             />
           </div>
