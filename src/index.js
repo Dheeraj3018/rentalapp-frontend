@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './context/auth';
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:9000/api/v1/auth";
+axios.defaults.baseURL = "https://rentalapp-zq9u.onrender.com";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
